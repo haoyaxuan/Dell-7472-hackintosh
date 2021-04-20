@@ -36,7 +36,7 @@
 1：解压『ALC256.zip』得到驱动文件。  
 2：将文件中的『CodecCommander.kext』放入到『/Library/Extensions/』目录，并重建缓存。  
 3：将文件中的 SSDT-ALC256.aml 放到EFI的ACPI目录中，并修改config.plist文件使其生效。  
-<font color="red">注：切记不要插着耳机安装，插着耳机安装会导致无法开机，需要断电5分钟后才可以开机。</font>
+注：切记不要插着耳机安装，插着耳机安装会导致无法开机，需要断电5分钟后才可以开机。
 
 ## 更新日志
 - 2021.04.20 全新EFI
