@@ -41,5 +41,5 @@ QQ：3129598
 ## 觉得资源还不错的可以打赏一下
 | 微信                                                         | 支付宝                                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![wechatpay](https://github.com/haoyaxuan/k550di7d1/blob/master/images/wechatpay.png) | ![alipay](https://github.com/haoyaxuan/k550di7d1/blob/master/images/alipay.png) |
+| ![wechatpay](https://github.com/haoyaxuan/dell7472/blob/master/images/wechatpay.png) | ![alipay](https://github.com/haoyaxuan/dell7472/blob/master/images/alipay.png) |
 
