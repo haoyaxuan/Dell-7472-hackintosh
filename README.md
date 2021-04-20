@@ -29,13 +29,14 @@
 
 ## 安装教程
 1：修改BIOS - 关闭『安全引导』   
-2：修改BIOS - 开启AHCI  
+2：修改BIOS - 开启『AHCI』  
 3：修改BIOS - 关闭『Enable Legacy Option ROMs』
 
 ## 耳麦驱动
 1：解压『ALC256.zip』得到驱动文件。  
-2：将文件中的『CodecCommander.kext』放入到『/Library/Extensions/』目录，并重建缓存。  
-3：将文件中的 SSDT-ALC256.aml 放到EFI的ACPI目录中，并修改config.plist文件使其生效。  
+2：执行『 sudo mount -uw / 』命令将系统根目录改为读写，如果不改，重建缓存会失效。
+3：将文件中的『CodecCommander.kext』放入到『/Library/Extensions/』目录，并重建缓存。  
+4：将文件中的 SSDT-ALC256.aml 放到EFI的ACPI目录中，并修改config.plist文件使其生效。  
 注：切记不要插着耳机安装，插着耳机安装会导致无法开机，需要断电5分钟后才可以开机。
 
 ## 更新日志
