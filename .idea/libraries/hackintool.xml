@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="hackintool">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/hackintool/iasl20180507.zip!/" />
+      <root url="jar://$PROJECT_DIR$/hackintool/kext_utility.zip!/" />
+      <root url="jar://$PROJECT_DIR$/hackintool/MaciASL.zip!/" />
+      <root url="jar://$PROJECT_DIR$/hackintool/DELL 7472 i5 BIOS.zip!/" />
+      <root url="jar://$PROJECT_DIR$/hackintool/DELL 7472 ACPI.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
