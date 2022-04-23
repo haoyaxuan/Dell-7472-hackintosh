@@ -11,6 +11,7 @@
 | 声卡     | 瑞昱 ALC282                                         |
 | 网卡     | RealtekRTL8111 + AR5B125（已更换 博通 BCM94360HMB） |
 
+
 ## 正常功能：
 1：显卡 （核显正常，独显无解）
 2：声卡(耳机、蓝牙耳机均正常使用)  
@@ -24,13 +25,23 @@
 10：变频正常。  
 11：支持原生亮度快捷键。
 
+
 ## 镜像下载
 - 黑果小兵部落阁 [MacOS Catalina 10.15.6](https://blog.daliansky.net/macOS-Catalina-10.15.6-19G73-Release-version-with-Clover-5119-original-image-Double-EFI-Version-UEFI-and-MBR.html)，感谢 @黑果小兵
 
-## 安装教程
-1：修改BIOS - 关闭『安全引导』   
-2：修改BIOS - 开启『AHCI』  
-3：修改BIOS - 关闭『Enable Legacy Option ROMs』
+
+## BIOS设置
+* 修改BIOS - 关闭『安全引导』
+* 修改BIOS - 开启『AHCI』
+* 修改BIOS - 关闭『Enable Legacy Option ROMs』
+
+
+## BIOS设置 For 隐项
+* 将EFI-shell文件夹复制到U盘，改名为EFI，然后从U盘启动
+* 设置 Pre-Allocated DVMT 为 64M:
+  ***setup_var 0x795 0x02***
+* 禁用 CFG lock:
+  ***setup_var 0x4ed 0x00***
 
 
 ## 耳麦驱动
@@ -40,7 +51,7 @@
 4：将文件中的 SSDT-ALC256.aml 放到EFI的ACPI目录中，并修改config.plist文件使其生效。  
 注：切记不要插着耳机安装，插着耳机安装会导致无法开机，需要断电5分钟后才可以开机。
 
-
+---
 ## 更新日志
 - 2022.04.23 升级OC0.6.6，更新驱动文件。
 - 2021.04.20 全新EFI
