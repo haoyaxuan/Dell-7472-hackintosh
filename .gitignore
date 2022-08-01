@@ -4,5 +4,7 @@
 
 # shell files
 *.sh
-.idea/
+
+# IntelliJ IDEA
 *.iml
+.idea/
