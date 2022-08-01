@@ -31,9 +31,14 @@
 
 
 ## BIOS设置
-* 修改BIOS - 关闭『安全引导』
-* 修改BIOS - 开启『AHCI』
-* 修改BIOS - 关闭『Enable Legacy Option ROMs』
+* General -> Boot Sequence：勾选所有Boot Sequence选项
+* General -> Advanced Boot Options：取消Enable Legacy Option ROMs
+* System Configuration -> Serial Port：勾选Disabled
+* System Configuration -> SSATA Operation：勾选AHCI
+* System Configuration -> USB Configuration：勾选全部
+* System Configuration -> Audio：勾选全部
+* Secure Boot -> Secure Boot Enable：勾选Disable
+* Intel Software Guard Extensions -> Intel SGX Enable：勾选Disable
 
 
 ## BIOS设置 For 隐项
@@ -42,14 +47,6 @@
   ***setup_var 0x795 0x02***
 * 禁用 CFG lock:
   ***setup_var 0x4ed 0x00***
-
-
-## 耳麦驱动
-1：系统安装好后，解压『ALC256.zip』得到驱动文件。  
-2：执行『 sudo mount -uw / 』命令将系统根目录改为读写，如果不改，重建缓存会失效。
-3：将文件中的『CodecCommander.kext』放入到『/Library/Extensions/』目录，并重建缓存。  
-4：将文件中的 SSDT-ALC256.aml 放到EFI的ACPI目录中，并修改config.plist文件使其生效。  
-注：切记不要插着耳机安装，插着耳机安装会导致无法开机，需要断电5分钟后才可以开机。
 
 
 ## 更新日志
