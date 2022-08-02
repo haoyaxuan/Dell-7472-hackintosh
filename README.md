@@ -49,6 +49,14 @@
   ***setup_var 0x4ed 0x00***
 
 
+## 耳麦驱动
+1：系统安装好后，解压『ALC256.zip』得到驱动文件。  
+2：执行『 sudo mount -uw / 』命令将系统根目录改为读写，如果不改，重建缓存会失效。
+3：将文件中的『CodecCommander.kext』放入到『/Library/Extensions/』目录，并重建缓存。  
+4：将文件中的 SSDT-ALC256.aml 放到EFI的ACPI目录中，并修改config.plist文件使其生效。  
+注：切记不要插着耳机安装，插着耳机安装会导致无法开机，需要断电5分钟后才可以开机。
+
+
 ## 注意事项
 * 安装时，格式化磁盘为：APFS格式。
 
