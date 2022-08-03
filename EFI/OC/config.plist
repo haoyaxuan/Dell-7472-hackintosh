@@ -245,21 +245,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1c,0x5)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>WLAN</string>
-				<key>compatible</key>
-				<string>pci14e4,43a3</string>
-				<key>device_type</key>
-				<string>Airport Extreme</string>
-				<key>model</key>
-				<string>DW1820A (BCM4350) 802.11ac Wireless</string>
-				<key>name</key>
-				<string>Airport</string>
-				<key>pci-aspm-default</key>
-				<integer>0</integer>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -291,6 +276,21 @@
 				<string>onboard-1</string>
 				<key>model</key>
 				<string>Intel UHD Graphics 620</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x5)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>WLAN</string>
+				<key>compatible</key>
+				<string>pci14e4,43a3</string>
+				<key>device_type</key>
+				<string>Airport Extreme</string>
+				<key>model</key>
+				<string>DW1820A (BCM4350) 802.11ac Wireless</string>
+				<key>name</key>
+				<string>Airport</string>
+				<key>pci-aspm-default</key>
+				<integer>0</integer>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -852,7 +852,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>30</integer>
+			<integer>15</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1045,21 +1045,21 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C027211084NHRPCJC</string>
+			<string>FVF918700CD0000CB</string>
 			<key>ProcessorType</key>
-			<integer>1541</integer>
+			<integer>1537</integer>
 			<key>ROM</key>
-			<data>FtvtvzfJ</data>
+			<data>XP1ixx1K</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro14,2</string>
+			<string>MacBookAir8,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02TRUZFHV2N</string>
+			<string>FVFYNEYGLYWM</string>
 			<key>SystemUUID</key>
-			<string>889428CF-A011-4DF3-A02A-3979833C00D0</string>
+			<string>DCA16D22-51BF-4903-AF32-8D089BC71D4A</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
