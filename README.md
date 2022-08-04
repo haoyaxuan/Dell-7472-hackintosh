@@ -12,6 +12,10 @@
 | 声卡   | Realtek ALC256                           |
 | 网卡   | Realtek RTL8111 + DW1820（Replace DW1820A） |
 
+## 成果展示
+![MAC配置](https://github.com/haoyaxuan/dell7472/blob/master/images/mac.png)
+![CPU变频](https://github.com/haoyaxuan/dell7472/blob/master/images/power.png)
+
 
 ## 正常功能：
 1：显卡 （核显正常，独显无解）  
@@ -66,7 +70,3 @@
 - 2022.08.04 更新传感器驱动；使用ssdt屏蔽独显，解决风扇狂转和CPU温度高问题。
 - 2022.04.23 升级OC0.6.6，更新驱动文件。
 - 2021.04.20 全新EFI
-
-
-## 效果图
-![CPU变频](https://github.com/haoyaxuan/dell7472/blob/master/images/power.png)
