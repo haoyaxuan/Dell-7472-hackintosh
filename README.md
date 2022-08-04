@@ -14,7 +14,7 @@
 
 
 ## 成果展示
-### 电脑配置
+### MAC配置
 ![MAC配置](https://github.com/haoyaxuan/dell7472/blob/master/images/mac.png)
 
 ### CPU变频
