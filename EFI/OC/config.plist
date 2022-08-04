@@ -20,6 +20,22 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
+				<string>SSDT-DDGPU.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-ALC256.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
 				<string>SSDT-BCKM.aml</string>
 			</dict>
 			<dict>
@@ -270,8 +286,6 @@
 				<data>FlkAAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
-				<key>disable-external-gpu</key>
-				<data>AQAAAA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
@@ -848,11 +862,11 @@
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
-			<true/>
+			<false/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>15</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1045,11 +1059,11 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>FVF918700CD0000CB</string>
+			<string>FVF901501CD00008C</string>
 			<key>ProcessorType</key>
 			<integer>1537</integer>
 			<key>ROM</key>
-			<data>XP1ixx1K</data>
+			<data>lZZRovue</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1057,9 +1071,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookAir8,2</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFYNEYGLYWM</string>
+			<string>FVFY29ZTLYWM</string>
 			<key>SystemUUID</key>
-			<string>DCA16D22-51BF-4903-AF32-8D089BC71D4A</string>
+			<string>F30AAEB0-52AD-4D11-A9FB-5629C04DD37D</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
