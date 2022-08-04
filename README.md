@@ -14,9 +14,11 @@
 
 
 ## 成果展示
-| 配置信息                                                         | CPU变频                                                       |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![MAC配置](https://github.com/haoyaxuan/dell7472/blob/master/images/mac.png) | ![alipay](https://github.com/haoyaxuan/dell7472/blob/master/images/power.png) |
+### 电脑配置
+![MAC配置](https://github.com/haoyaxuan/dell7472/blob/master/images/mac.png)
+
+### CPU变频
+![CPU变频](https://github.com/haoyaxuan/dell7472/blob/master/images/power.png)
 
 
 ## 正常功能：
