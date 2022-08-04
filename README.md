@@ -13,7 +13,9 @@
 | 网卡   | Realtek RTL8111 + DW1820（Replace DW1820A） |
 
 ## 成果展示
+* 配置信息
 ![MAC配置](https://github.com/haoyaxuan/dell7472/blob/master/images/mac.png)
+* CPU变频
 ![CPU变频](https://github.com/haoyaxuan/dell7472/blob/master/images/power.png)
 
 
