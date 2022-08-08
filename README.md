@@ -52,10 +52,6 @@
 * 禁用 CFG lock:
   ***setup_var 0x4ed 0x00***
 
-  
-## 注意事项
-* 安装时，格式化磁盘为：APFS格式。
-
 
 ## 更新日志
 - 2022.08.08 优化触摸板体验，使用**VoodooI2C.kext**和**VoodooPS2Controller.kext**解决打字和滑动有间歇的问题。删除多余驱动
