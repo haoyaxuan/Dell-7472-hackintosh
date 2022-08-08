@@ -54,7 +54,7 @@
 
 
 ## 更新日志
-- 2022.08.08 优化触摸板体验，使用**VoodooI2C.kext**和**VoodooPS2Controller.kext**解决打字和滑动有间歇的问题。删除多余驱动
+- 2022.08.08 优化触摸板体验，使用**VoodooI2C.kext**和**VoodooPS2Controller.kext**解决打字和触控有间歇的问题。删除多余驱动
 - 2022.08.05 升级OC0.8.2，支持MacOS Big Sur和MacOS Monterey安装。
 - 2022.08.04 更新传感器驱动；使用ssdt屏蔽独显，解决风扇狂转和CPU温度高问题。
 - 2022.04.23 升级OC0.6.6，更新驱动文件。
