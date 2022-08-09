@@ -29,8 +29,7 @@
 
 ## 镜像下载
 - 黑果小兵部落阁 [MacOS Catalina 10.15.6](https://blog.daliansky.net/macOS-Catalina-10.15.6-19G73-Release-version-with-Clover-5119-original-image-Double-EFI-Version-UEFI-and-MBR.html) |
-[MacOS BigSur 11.6.6](https://blog.daliansky.net/macOS-BigSur-11.6.6-20G624-Release-version-with-OC-0.8.0-and-Clover-5142-and-PE-original-image.html) |
-[MacOS Monterey 12.1](https://blog.daliansky.net/macOS-Monterey-12.1-21C52-Release-version-with-OC-0.7.6-CLOVER-5143-and-FirPE-original-image.html)
+[MacOS BigSur 11.6.6](https://blog.daliansky.net/macOS-BigSur-11.6.6-20G624-Release-version-with-OC-0.8.0-and-Clover-5142-and-PE-original-image.html) 
 感谢 @黑果小兵
 - 不建议升级**MacOS BigSur**，毕竟硬件配置在这。升级后会出现掉电快的情况，流畅度问题不大，但CPU使用率较大
 
@@ -56,7 +55,7 @@
 
 ## 更新日志
 - 2022.08.08 优化触摸板体验，使用**VoodooI2C.kext**和**VoodooPS2Controller.kext**解决打字和触控有间歇的问题。删除多余驱动
-- 2022.08.05 升级OC0.8.2，支持MacOS Big Sur和MacOS Monterey安装。
+- 2022.08.05 升级OC0.8.2，支持MacOS Big Sur安装。
 - 2022.08.04 更新传感器驱动；使用ssdt屏蔽独显，解决风扇狂转和CPU温度高问题。
 - 2022.04.23 升级OC0.6.6，更新驱动文件。
 - 2021.04.20 全新EFI
