@@ -1,0 +1,53 @@
+setup_var 0x795 0x2
+0x3D913 Setting: DVMT Pre-Allocated, Variable: 0x795 {05 91 0C 05 1F 05 35 27 01 00 95 07 14 10 00 FE 00}
+0x3D924 Option: 0M, Value: 0x0 {09 07 0D 05 00 00 00}
+0x3D92B Option: 32M, Value: 0x1 {09 07 0E 05 30 00 01}
+0x3D932 Option: 64M, Value: 0x2 {09 07 0F 05 00 00 02}
+0x3D939 Option: 4M, Value: 0xF0 {09 07 10 05 00 00 F0}
+0x3D940 Option: 8M, Value: 0xF1 {09 07 11 05 00 00 F1}
+0x3D947 Option: 12M, Value: 0xF2 {09 07 12 05 00 00 F2}
+0x3D94E Option: 16M, Value: 0xF3 {09 07 13 05 00 00 F3}
+0x3D955 Option: 20M, Value: 0xF4 {09 07 14 05 00 00 F4}
+0x3D95C Option: 24M, Value: 0xF5 {09 07 15 05 00 00 F5}
+0x3D963 Option: 28M, Value: 0xF6 {09 07 16 05 00 00 F6}
+0x3D96A Option: 32M/F7, Value: 0xF7 {09 07 17 05 00 00 F7}
+0x3D971 Option: 36M, Value: 0xF8 {09 07 18 05 00 00 F8}
+0x3D978 Option: 40M, Value: 0xF9 {09 07 19 05 00 00 F9}
+0x3D97F Option: 44M, Value: 0xFA {09 07 1A 05 00 00 FA}
+0x3D986 Option: 48M, Value: 0xFB {09 07 1B 05 00 00 FB}
+0x3D98D Option: 52M, Value: 0xFC {09 07 1C 05 00 00 FC}
+0x3D994 Option: 56M, Value: 0xFD {09 07 1D 05 00 00 FD}
+0x3D99B Option: 60M, Value: 0xFE {09 07 1E 05 00 00 FE}
+
+
+setup_var 0x796 0x3
+0x3D9A6 Setting: DVMT Total Gfx Mem, Variable: 0x796 {05 91 20 05 21 05 EB 04 01 00 96 07 10 10 01 03 00}
+0x3D9B7 Option: 256M, Value: 0x2 {09 07 23 05 30 00 02}
+0x3D9BE Option: 128M, Value: 0x1 {09 07 22 05 00 00 01}
+0x3D9C5 Option: MAX, Value: 0x3 {09 07 24 05 00 00 03}
+
+
+setup_var 0x4ED 0x0
+0x36BE8 Setting: CFG Lock, Variable: 0x4ED {05 91 EF 02 F0 02 A5 02 01 00 ED 04 10 10 00 01 00}
+0x36BF9 Option: Disabled, Value: 0x0 {09 07 04 00 00 00 00}
+0x36C00 Option: Enabled, Value: 0x1 {09 07 03 00 30 00 01}
+
+
+setup_var 0x4DA 0x0
+0x358D6 Setting: Package Power Limit MSR Lock, Variable: 0x4DA {05 91 00 02 01 02 36 02 01 00 DA 04 10 10 00 01 00}
+0x358E7 Option: Disabled, Value: 0x0 {09 07 04 00 30 00 00}
+0x358EE Option: Enabled, Value: 0x1 {09 07 03 00 00 00 01}
+
+
+setup_var 0x8A6 0x0
+0x4BC89 Setting: BIOS Lock, Variable: 0x8A6 {05 91 01 08 02 08 CF 0A 01 00 A6 08 10 10 00 01 00}
+0x4BC9A Default: 8 Bit, Value: 0x1 {5B 06 00 00 00 01}
+0x4BCA0 Option: Disabled, Value: 0x0 (default MFG) {09 07 04 00 20 00 00}
+0x4BCA7 Option: Enabled, Value: 0x1 {09 07 03 00 00 00 01}
+
+
+setup_var 0x8A5 0x0
+0x4BC58 Setting: RTC Lock, Variable: 0x8A5 {05 91 FF 07 00 08 CE 0A 01 00 A5 08 10 10 00 01 00}
+0x4BC69 Default: 8 Bit, Value: 0x1 {5B 06 00 00 00 01}
+0x4BC6F Option: Disabled, Value: 0x0 {09 07 04 00 00 00 00}
+0x4BC76 Option: Enabled, Value: 0x1 (default MFG) {09 07 03 00 20 00 01}
