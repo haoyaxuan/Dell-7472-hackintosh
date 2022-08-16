@@ -325,8 +325,6 @@
 				<data>FlkAAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
-				<key>force-online</key>
-				<data>AQAAAA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
@@ -1092,7 +1090,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Mg==</data>
 				<key>boot-args</key>
-				<string>-v brcmfx-country=#a</string>
+				<string>-v igfxonln=1 brcmfx-country=#a</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
