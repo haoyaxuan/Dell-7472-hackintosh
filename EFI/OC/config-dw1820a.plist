@@ -1130,7 +1130,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Mg==</data>
 				<key>boot-args</key>
-				<string>igfxonln=1 brcmfx-country=#a</string>
+				<string>-v igfxonln=1 brcmfx-country=#a</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
