@@ -29,10 +29,10 @@
 
 ## 镜像下载
 - 黑果小兵部落阁 [MacOS Catalina 10.15.6](https://blog.daliansky.net/macOS-Catalina-10.15.6-19G73-Release-version-with-Clover-5119-original-image-Double-EFI-Version-UEFI-and-MBR.html) |
-[MacOS BigSur 11.6.6](https://blog.daliansky.net/macOS-BigSur-11.6.6-20G624-Release-version-with-OC-0.8.0-and-Clover-5142-and-PE-original-image.html) 
-感谢 @黑果小兵
-- 不建议升级***MacOS BigSur***，毕竟硬件配置在这。升级后会出现掉电快的情况
-- 此EFI最高支持***MacOS BigSur***，请勿用在***MacOS Monterey***，网卡DW1820A在***MacOS Monterey***中隔空投送只支持单向。
+[MacOS BigSur 11.6.6](https://blog.daliansky.net/macOS-BigSur-11.6.6-20G624-Release-version-with-OC-0.8.0-and-Clover-5142-and-PE-original-image.html) |
+  [MacOS Monterey 12.5](https://osx.cx/macos-monterey-12-5-21f79.html)
+  感谢 @黑果小兵 @黑苹果社区
+- 网卡DW1820A在***MacOS Monterey***无法使用，如果需要强制使用可以在BIOS中禁用WIFI使用，不禁用WIFI有大几率卡LOGO。
 
 ## BIOS设置
 * General -> Boot Sequence：勾选所有Boot Sequence选项
