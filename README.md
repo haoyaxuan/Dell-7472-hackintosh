@@ -28,11 +28,15 @@
 
 
 ## 镜像下载
--  [MacOS Catalina 10.15.6](https://blog.daliansky.net/macOS-Catalina-10.15.6-19G73-Release-version-with-Clover-5119-original-image-Double-EFI-Version-UEFI-and-MBR.html) |
+- [MacOS Catalina 10.15.6](https://blog.daliansky.net/macOS-Catalina-10.15.6-19G73-Release-version-with-Clover-5119-original-image-Double-EFI-Version-UEFI-and-MBR.html) |
 [MacOS BigSur 11.6.6](https://blog.daliansky.net/macOS-BigSur-11.6.6-20G624-Release-version-with-OC-0.8.0-and-Clover-5142-and-PE-original-image.html) |
   [MacOS Monterey 12.5](https://osx.cx/macos-monterey-12-5-21f79.html)
-  感谢 @黑果小兵 @黑苹果社区
+- 感谢 @黑果小兵 @黑苹果社区
+
+
+## 说明
 - 网卡DW1820A在***MacOS Monterey***无法使用，如果需要强制使用可以在BIOS中禁用WIFI使用，不禁用WIFI有大几率卡LOGO。
+- `hackintool`目录下有所需要的工具以及ACPI、BIOS等。
 
 ## BIOS设置
 * General -> Boot Sequence：勾选所有Boot Sequence选项
